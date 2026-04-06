@@ -17,7 +17,7 @@ symbol = ' '
 show_always = true
 format='[$user]($style) [in](white bold) '
 style_user = "bold red"
-aliases = { "carloscuesta" = "carlos" }
+aliases = { "enanibus" = "jacobo" }
 
 [git_branch]
 style="bold blue"

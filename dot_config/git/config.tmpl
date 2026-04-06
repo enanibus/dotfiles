@@ -1,5 +1,5 @@
 [user]
-  name = Carlos Cuesta
+  name = {{ .name }}
   email = {{ .email }}
   {{- if eq .profile "personal" }}
   signingkey = {{ .chezmoi.homeDir }}/.ssh/{{ .gitSigningKeyName }}.pub

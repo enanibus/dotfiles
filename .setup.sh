@@ -1,7 +1,7 @@
 #!/bin/bash
 set -eufo pipefail
 
-echo "🚀  Setting up @carloscuesta dotfiles."
+echo "🚀  Setting up @enanibus dotfiles."
 
 if xcode-select -p &> /dev/null; then
   echo "✅  Xcode command line tools are already installed."
@@ -35,7 +35,7 @@ if [ -d "$HOME/.local/share/chezmoi/.git" ]; then
   chezmoi update
   echo "✅  Chezmoi updated"
 else
-  chezmoi init carloscuesta
+  chezmoi init enanibus
   chezmoi apply
   echo "✅  Chezmoi initialized"
 fi
