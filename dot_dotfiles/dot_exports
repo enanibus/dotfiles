@@ -30,3 +30,6 @@ export PATH="$HOME/.rbenv/shims:$PATH"
 
 # Path
 export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
+
+# Local bin
+export PATH="$HOME/.local/bin:$PATH"
